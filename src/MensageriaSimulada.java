@@ -142,18 +142,6 @@ public class MensageriaSimulada {
                 } catch (NumberFormatException e) {
                     System.out.println("Entrada inválida.");
                 }
-
-                /*
-                try {
-                    int numero = Integer.parseInt(entrada);
-                    System.out.println("Publicando: " + numero);
-                    for (Consumidor c : assinantes) {
-                        c.processar(numero);
-                    }
-                } catch (NumberFormatException e) {
-                    System.out.println("Entrada inválida.");
-                }
-                 */
             }
         } else {
             System.out.println("Tipo de comunicação inválido.");
