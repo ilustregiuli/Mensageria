@@ -1,0 +1,36 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse (caso alguém use)
+.classpath
+.project
+.settings/
+
+# VS Code (se alguém usar)
+.vscode/
+
+# Environment files
+.env
